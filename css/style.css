@@ -10,8 +10,29 @@ body{
     box-sizing:border-box;
     background-color:black;
     color: rgb(220, 219, 227);
-    
+
 }
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+
+
+.cabecalho__meu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link{ 
+    font-family:'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: aqua;
+    text-decoration: none;
+
+}
+
+
 .titulo_destaque{
     color: aqua;
 }
@@ -19,7 +40,7 @@ span{
     color: rgb(222, 93, 60);
 }
 .apresentacao {
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex ;
     align-items: center;
     justify-content: space-between;
